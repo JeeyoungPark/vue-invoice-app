@@ -1,6 +1,6 @@
-import { createSotre } from "vuex";
+import { createStore } from "vuex";
 
-export default createSotre({
+export default createStore({
   state: {},
   mutations: {},
   actions: {},
