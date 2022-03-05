@@ -1,7 +1,7 @@
 <template>
   <nav class="flex">
     <div class="branding flex">
-      <img src="@/assets/file-invoice-dollar-solid.png" alt="" />
+      <img src="@/assets/file-invoice-dollar-solid.png" alt="logo" />
     </div>
   </nav>
 </template>
@@ -16,7 +16,7 @@ export default {
 nav {
   z-index: 99;
   flex-direction: row;
-  background-color: #1e2139;
+  background-color: $MODAL_COLOR;
   @media (min-width: 900px) {
     min-height: 100%;
     min-width: 90px;
@@ -27,7 +27,7 @@ nav {
 
 .branding {
   border-radius: 0 20px 20px 0;
-  background-color: #7c5dfa;
+  background-color: $BRANDING_COLOR;
   justify-content: center;
   padding: 24px;
   @media (min-width: 900px) {

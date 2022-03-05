@@ -56,17 +56,17 @@ export default {
 }
 
 .app {
-  background-color: #141625;
+  background-color: $BACKGROUND_COLOR;
   min-height: 100vh;
   @media (min-width: 900px) {
     flex-direction: row !important;
   }
 
-  /* .app-content {
+  .app-content {
     padding: 0 20px;
     flex: 1;
     position: relative;
-  } */
+  }
 }
 
 .mobile-message {
@@ -74,8 +74,8 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #141625;
-  color: #fff;
+  background-color: $BACKGROUND_COLOR;
+  color: $WHITE;
 
   p {
     margin-top: 16px;
@@ -90,7 +90,7 @@ button,
   border: none;
   font-size: 12px;
   margin-right: 8px;
-  color: #fff;
+  color: $WHITE;
 }
 
 .dark-purple {
