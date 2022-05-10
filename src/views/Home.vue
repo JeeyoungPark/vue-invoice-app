@@ -2,11 +2,11 @@
   <div class="home container">
     <!-- Header -->
     <head class="header flex">
-      <box class="left flex flex-column">
+      <div class="left flex flex-column">
         <h1>Invoices</h1>
         <span>There are 4 total invoices</span>
-      </box>
-      <box class="right flex">
+      </div>
+      <div class="right flex">
         <div @click="toggleFilterMenu" class="filter flex">
           <span>Filter by status</span>
           <img src="@/assets/icon-arrow-down.svg" alt="" />
@@ -23,7 +23,7 @@
           </div>
           <span>New Invoice</span>
         </div>
-      </box>
+      </div>
     </head>
   </div>
 </template>
